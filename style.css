@@ -68,3 +68,28 @@ h1{
 h6{
     color: aliceblue;
 }
+#input{
+    padding: 7px;
+    border-radius: 5px;
+    border: solid black;
+    text-align: center;
+    width: 250px;
+    height: 25px;
+    
+}
+.con{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#btn{
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: solid rgb(17, 1, 1);
+    width: 190px;
+    position: relative;
+    animation: 2s ff alternate infinite;
+    background-color: black;
+}
