@@ -1,0 +1,59 @@
+nav{
+    padding: 10px;
+    border:1px solid black;
+    background-color: rgb(43, 42, 42);
+    text-align: right;
+    color: aliceblue;
+
+}
+body{
+    background-color: rgb(52, 51, 51);
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover{
+    color: red;
+    font-size: 20px;
+}
+nav a:active{
+    color: blue;
+}
+#nothing{
+    padding: 25px;
+    background-color: aliceblue;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    animation: 5s gg infinite alternate;
+}
+@keyframes gg {
+    0% {background-color: aqua;top: 0px ;left:0px;}
+    25% {background-color: burlywood;top: 0px ;left:1450px;}
+    50% {background-color: aquamarine;top: 100px ;left:1450px;}
+    75% {background-color: blanchedalmond;
+        top: 100px ;left:0px;}
+    100% {background-color: bisque;top: 0px ;left:0px;}
+
+}
+h1{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    position: relative;
+    animation: 4s ff infinite alternate;
+}
+@keyframes ff {
+    0% {color: aqua;}
+    25% {color: burlywood;}
+    50% {color: aquamarine;}
+    75% {color: blanchedalmond;}
+    100% {color: bisque;}
+}
+.containe {
+    width: 15px;
+}
