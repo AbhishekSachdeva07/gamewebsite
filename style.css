@@ -54,6 +54,17 @@ h1{
     75% {color: blanchedalmond;}
     100% {color: bisque;}
 }
-.containe {
-    width: 15px;
+#img {
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+    border: solid black;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+.containe{
+    text-align: center;
+}
+h6{
+    color: aliceblue;
 }
